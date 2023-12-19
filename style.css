@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrap{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #242424;
+}
+.keyboard{
+    width: 95%;
+    height: 63vh;
+    background-color: black;
+    box-shadow: #333 0.01px 0.01px 7px 7px;
+    border-radius: 25px;
+    padding: 18px;
+}
+.input{
+    margin-bottom: 30px;
+    width: 85%;
+    height: 55px;
+    border-radius: 25px;
+    background-color: black;
+    color: #7c7c7c;
+    font-size: 30px;
+    font-weight: 500;
+}
+.input:focus {
+    outline: none;
+  }
+  /* focus це клік на елемент */
+
+  
+.AllTheKeys{
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: red 1px 1px 5px 5px;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    text-align: center;
+    margin-right: 15px;
+
+}
+.Esc{
+    width: 60px;
+    height: 37px;
+    margin-right: 30px;
+    font-size: 18px;
+}
+.FirstKeyBoardLine{
+    width: 100%;
+    height: 37px;
+    display: flex;
+}
+.SecondKeyBoardLine{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin-top: 20px;
+}
+.thirdKEyboardLine{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    margin-top: 24px;
+}
+.F{
+    width: 55px;
+    height: 37px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.F4{
+    margin-right: 27px;
+}
+.Home{
+    margin-right: 27px;
+}
+.OffTheLaptop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.EEeeeeee{
+    width: 32px;
+    height: 55px;
+    margin-right: 20px;
+}
+.numbers1{
+    width: 62px;
+    height: 55px;
+    margin-right: 19px;
+    font-size: 17px;
+    padding: 3px;
+}
+.Backspace{
+    width: 102px;
+    margin-right: 27px;
+
+}
+.N{
+    width: 55px;
+    height: 50px;
+}
+.px280{
+    display: flex;
+    width: 68px;
+}
+.N1{
+    border: rgb(255, 51, 51) solid 4px;
+}
+.Tab{
+    width: 100px;
+    height: 55px;
+    justify-content: space-around;
+    display: flex;
+    font-size: 16px;
+    padding: 7px;
+}
+.letters{
+    width: 62px;
+    flex-direction: column;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.Ctrl{
+    width: 62px;
+    height: 55px;
+    font-size: 20px;
+}
+.TopPpp{
+    width: 100%;
+    height: 50%;
+    padding-left: 9px;
+    display: flex;
+    justify-content: flex-start;
+}
+.BottomPpp{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.R{
+    width: 85px;
+    margin-right: 30px;
+}
+.N2{
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+}
+.leftForX{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.rightforX{
+    width: 50%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 6px;
+    padding-right: 10px;
+}
+.letters2{
+    flex-direction: row;
+    font-size: 18px;
+}
+.CapsLock{
+    width: 120px;
+    font-size: 19px;
+
+}
+.Enter{
+    width: 140px;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 29px;
+}
+#Www{
+    border: rgb(255, 51, 51) solid 4px;
+}
+#Aaa{
+    border: rgb(255, 51, 51) solid 4px;
+}
+#Sss{
+    border: rgb(255, 51, 51) solid 4px;
+}
+#Ddd{
+    border: rgb(255, 51, 51) solid 4px;
+}
+.Shift{
+    width: 140px;
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+
+}
+.fa-arrow-up{
+    margin-right: 10px;
+}
+.Shift2{
+    width: 120px;
+    font-size: 22px;
+
+}
+#CaretUp{
+    border: rgb(255, 51, 51) solid 4px;
+    margin-right: 29px;
+}
+#Enter2{
+    height: 134px;
+    font-size: 15px;
+}
+.Fn{
+    width: 62px;
+    height: 55px;
+    font-size: 20px;
+}
+.Windows{
+    width: 62px;
+    height: 55px;
+    font-size: 22px;
+}
+.Alt{
+    width: 62px;
+    height: 55px;
+    font-size: 22px;
+}
+.Space{
+    width: 370px;
+}
+.List{
+    width: 62px;
+    height: 55px;
+    font-size: 22px;
+}
+.Ctrl2{
+    font-size: 22px;
+    width: 122px;
+}
+.caret{
+    border: rgb(255, 51, 51) solid 4px;
+}
+#CaretRight{
+    margin-right: 20px;
+}
